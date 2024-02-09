@@ -1,0 +1,127 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav .active a, 
+nav a:hover {
+    background-color: #39aae1;
+    color: #fff;
+
+}
+
+section {
+    background-color: #006494;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+
+.capa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.imagem {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagem img {
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+section div {
+    margin-left: 20px;
+    text-align: left;
+}
+
+section h3 {
+    color: #fff;
+}
+section h1 {
+    color: #fff;
+}
+section p {
+    color: #ddd;
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botoes button:hover {
+    background-color: #e67e22;
+}
